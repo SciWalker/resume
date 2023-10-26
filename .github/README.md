@@ -6,7 +6,7 @@ This was a fork from Thomas Highbaugh's resume template.
 ## How to run it
 Clone the git repository 
 ```
-git clone https://github.com/Thomashighbaugh/resume
+git clone https://github.com/SciWalker/resume
 ```
 
 Navigate to the base directory:
@@ -47,14 +47,15 @@ yarn build
 
 A nice bootstrap alternative that doesn't have as much opinionation that is all the rage these days with the 'hates css' crowd that while not a part of, I definitely didn't want to fall behind and thus I took this oppurtunity to practice a bit. 
 
-**Note:** The way I am using Tailwind here varies wildly from the way I use it elsewhere and is a bit of an old school way to deploy it but `it works` just fine so I am not going to throw the monkey wrench in the project anytime soon on that front. 
-
 <hr>
-
 
 ## Custom CSS
 
 Code from `tailwind.config.js` and `tailwind.css` transpiles to `docs/style.css`.
+
+To change the color of the background of the text, change the `bg-gray-100` class in `tailwind.config.js` to `bg-gray-<number>` where `<number>` is the degree of shade of gray you want, the higher the number the darker the shade.
+
+To change the color of the patterns, go to tailwind.css and change the background-color under html section.
 
 <hr/>
 
