@@ -53,7 +53,9 @@ A nice bootstrap alternative that doesn't have as much opinionation that is all 
 
 Code from `tailwind.config.js` and `tailwind.css` transpiles to `docs/style.css`.
 
-To change the color of the background, change the `bg-gray-100` class in `tailwind.config.js` to `bg-gray-<number>` where `<number>` is the degree of shade of gray you want, the higher the number the darker the shade.
+To change the color of the background of the text, change the `bg-gray-100` class in `tailwind.config.js` to `bg-gray-<number>` where `<number>` is the degree of shade of gray you want, the higher the number the darker the shade.
+
+To change the color of the patterns, go to tailwind.css and change the background-color under html section.
 
 <hr/>
 
